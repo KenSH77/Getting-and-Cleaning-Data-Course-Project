@@ -1,0 +1,17 @@
+Introduction
+
+The script run_analysis.R executes the 5 steps described in the course project's definition.
+
+First, all the data are imported into R environment. The cbind/rbind methods are used to bind 'training and test dataset.
+
+Secondly, the select statement inside 'dplyr' package is used to select all column - with names contains 'std' or 'mean'
+
+Thirdly, the mutate function is used to reset the Activity values - based on the dataset - activity_labels
+
+The 4th step: no code is required, because line 27 to line 28 code inside step 1 has already processed the logic
+
+The final step:
+ddply statement is used to calculate the means functions based in 'Activity/Subject' groups)
+
+
+
