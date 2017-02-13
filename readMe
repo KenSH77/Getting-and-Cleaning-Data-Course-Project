@@ -1,0 +1,15 @@
+Getting and Cleaning Data - Course Project - Week4-Assignment
+
+This repository hosts the R code and documentation files for the Data Science's track course "Getting and Cleaning data", available in coursera. - created by Ken, Feb 13th, 2017 - version 1
+
+The dataset being used is: Human Activity Recognition Using Smartphones
+
+Files List
+
+The code takes for granted all the data is present in the same folder, un-compressed and without names altered.
+
+codeBook.txt:     describes the variables, the data, and any transformations or work that was performed to clean up the data.
+
+run_analysis.R: contains all the code to perform the analyses described in the 5 steps. They can be launched in RStudio by just importing the file.
+
+resultData.txt:   the tidy dataset.
